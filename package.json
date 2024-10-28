@@ -4,6 +4,7 @@
   "scripts": {
     "migrate": "dotenvx run -- turbo db:migrate",
     "build": "turbo build",
+    "botDeployDev": "dotenvx run -- turbo bot:deployDev",
     "dev": "dotenvx run -- turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""

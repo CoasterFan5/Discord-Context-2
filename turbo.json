@@ -5,7 +5,8 @@
     "DATABASE_URL",
     "TOKEN",
     "DEV_SERVER_ID",
-    "BOT_ID"
+    "BOT_ID",
+    "PANEL_URL"
   ],
   "tasks": {
     "db:migrate": {

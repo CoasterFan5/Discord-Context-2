@@ -2,8 +2,9 @@
   "name": "Discord-Context-2",
   "private": true,
   "scripts": {
+    "migrate": "dotenvx run -- turbo db:migrate",
     "build": "turbo build",
-    "dev": "turbo dev",
+    "dev": "dotenvx run -- turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
@@ -15,5 +16,8 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.21.0"
   }
 }

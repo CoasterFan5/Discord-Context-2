@@ -2,6 +2,7 @@
   "name": "bot",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "pnpm tsx watch index.ts",
     "build": "echo 'Add build script here'",
@@ -9,6 +10,7 @@
     "lint": "echo 'Add lint script here'"
   },
   "devDependencies": {
-    "tsx": "^4.19.2"
+    "tsx": "^4.19.2",
+    "@repo/database": "workspace:*"
   }
 }
